@@ -9,16 +9,16 @@ namespace InsertSortApp
     class InsertArray
     {
         private long[] array;
-        private int size;
+        private int count;
 
-        public InsertArray(int max)
+        public InsertArray(int length)
         {
-            array = new long[max];
+            array = new long[length];
         }
 
         public void Display()
         {
-            for (int i = 0; i < size; i++)
+            for (int i = 0; i < count; i++)
             {
                 Console.Write(array[i] + " ");
             }
@@ -27,14 +27,14 @@ namespace InsertSortApp
 
         public void Insert(long value)
         {
-            array[size++] = value;
+            array[count++] = value;
         }
 
         public void Sort()
         {
             //outer - разделительный маркер
             int inner, outer;
-            for (outer = 1; outer < size; outer++)
+            for (outer = 1; outer < count; outer++)
             {
                 long buf = array[outer];
                 inner = outer;

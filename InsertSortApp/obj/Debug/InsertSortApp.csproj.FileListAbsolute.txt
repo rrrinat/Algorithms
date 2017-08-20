@@ -1,0 +1,5 @@
+C:\work\c#\Algorithm\InsertSortApp\bin\Debug\InsertSortApp.exe.config
+C:\work\c#\Algorithm\InsertSortApp\bin\Debug\InsertSortApp.exe
+C:\work\c#\Algorithm\InsertSortApp\bin\Debug\InsertSortApp.pdb
+C:\work\c#\Algorithm\InsertSortApp\obj\Debug\InsertSortApp.exe
+C:\work\c#\Algorithm\InsertSortApp\obj\Debug\InsertSortApp.pdb

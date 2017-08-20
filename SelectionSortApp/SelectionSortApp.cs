@@ -10,9 +10,9 @@ namespace SelectionSort
     {
         static void Main(string[] args)
         {
-            int size = 100;
+            int length = 100;
 
-            SelectionArray selectionArray = new SelectionArray(size);
+            SelectionArray selectionArray = new SelectionArray(length);
 
             selectionArray.Insert(77);
             selectionArray.Insert(99);

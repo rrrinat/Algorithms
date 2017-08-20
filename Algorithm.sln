@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSortApp", "BubbleSort
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertSortApp", "InsertSortApp\InsertSortApp.csproj", "{824280E4-5A72-4174-9F5C-CA3469AAC48F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackApp", "StackApp\StackApp.csproj", "{14D4F644-6C2C-48C9-8E06-E1EAF42346FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{824280E4-5A72-4174-9F5C-CA3469AAC48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{824280E4-5A72-4174-9F5C-CA3469AAC48F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{824280E4-5A72-4174-9F5C-CA3469AAC48F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14D4F644-6C2C-48C9-8E06-E1EAF42346FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D4F644-6C2C-48C9-8E06-E1EAF42346FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D4F644-6C2C-48C9-8E06-E1EAF42346FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D4F644-6C2C-48C9-8E06-E1EAF42346FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

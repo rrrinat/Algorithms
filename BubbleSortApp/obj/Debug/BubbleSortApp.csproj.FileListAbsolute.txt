@@ -1,0 +1,6 @@
+C:\work\c#\Algorithm\BubbleSortApp\bin\Debug\BubbleSortApp.exe.config
+C:\work\c#\Algorithm\BubbleSortApp\bin\Debug\BubbleSortApp.exe
+C:\work\c#\Algorithm\BubbleSortApp\bin\Debug\BubbleSortApp.pdb
+C:\work\c#\Algorithm\BubbleSortApp\obj\Debug\BubbleSortApp.csprojResolveAssemblyReference.cache
+C:\work\c#\Algorithm\BubbleSortApp\obj\Debug\BubbleSortApp.exe
+C:\work\c#\Algorithm\BubbleSortApp\obj\Debug\BubbleSortApp.pdb

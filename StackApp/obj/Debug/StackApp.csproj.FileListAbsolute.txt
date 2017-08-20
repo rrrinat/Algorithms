@@ -1,0 +1,6 @@
+C:\work\c#\Algorithm\StackApp\bin\Debug\StackApp.exe.config
+C:\work\c#\Algorithm\StackApp\bin\Debug\StackApp.exe
+C:\work\c#\Algorithm\StackApp\bin\Debug\StackApp.pdb
+C:\work\c#\Algorithm\StackApp\obj\Debug\StackApp.csprojResolveAssemblyReference.cache
+C:\work\c#\Algorithm\StackApp\obj\Debug\StackApp.exe
+C:\work\c#\Algorithm\StackApp\obj\Debug\StackApp.pdb

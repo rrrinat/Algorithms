@@ -4,3 +4,9 @@ C:\Users\Asus\documents\visual studio 2017\Projects\Algorithm\SelectionSortApp\b
 C:\Users\Asus\documents\visual studio 2017\Projects\Algorithm\SelectionSortApp\obj\Debug\SelectionSortApp.csprojResolveAssemblyReference.cache
 C:\Users\Asus\documents\visual studio 2017\Projects\Algorithm\SelectionSortApp\obj\Debug\SelectionSortApp.exe
 C:\Users\Asus\documents\visual studio 2017\Projects\Algorithm\SelectionSortApp\obj\Debug\SelectionSortApp.pdb
+C:\work\c#\Algorithm\SelectionSortApp\bin\Debug\SelectionSortApp.exe.config
+C:\work\c#\Algorithm\SelectionSortApp\bin\Debug\SelectionSortApp.exe
+C:\work\c#\Algorithm\SelectionSortApp\bin\Debug\SelectionSortApp.pdb
+C:\work\c#\Algorithm\SelectionSortApp\obj\Debug\SelectionSortApp.csprojResolveAssemblyReference.cache
+C:\work\c#\Algorithm\SelectionSortApp\obj\Debug\SelectionSortApp.exe
+C:\work\c#\Algorithm\SelectionSortApp\obj\Debug\SelectionSortApp.pdb

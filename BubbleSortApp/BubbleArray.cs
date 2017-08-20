@@ -9,16 +9,16 @@ namespace BubbleSortApp
     class BubbleArray
     {
         private long[] array;
-        private int size;
+        private int count;
 
-        public BubbleArray(int max)
+        public BubbleArray(int length)
         {
-            array = new long[max];
+            array = new long[length];
         }
 
         public void Display()
         {
-            for (int i = 0; i < size; i++)
+            for (int i = 0; i < count; i++)
             {
                 Console.Write(array[i] + " ");
             }
@@ -27,16 +27,16 @@ namespace BubbleSortApp
 
         public void Insert(long value)
         {
-            array[size++] = value;
+            array[count++] = value;
         }
 
         public void Sort()
         {
-            for (int i = 0; i < size - 1; i++)
+            for (int i = 0; i < count - 1; i++)
             {
-                for (int j = i + 1; j < size; j++)
+                for (int j = i + 1; j < count; j++)
                 {
-                    if (array[i] < array[j])
+                    if (array[i] > array[j])
                     {
                         Swap(i, j);
                     }

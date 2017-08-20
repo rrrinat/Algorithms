@@ -10,9 +10,9 @@ namespace BubbleSortApp
     {
         static void Main(string[] args)
         {
-            int size = 100;
+            int length = 100;
 
-            BubbleArray bubbleArray = new BubbleArray(size);
+            BubbleArray bubbleArray = new BubbleArray(length);
 
             bubbleArray.Insert(77);
             bubbleArray.Insert(99);

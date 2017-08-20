@@ -9,16 +9,16 @@ namespace SelectionSort
     class SelectionArray
     {
         private long[] array;
-        private int size;
+        private int count;
 
-        public SelectionArray(int max)
+        public SelectionArray(int length)
         {
-            array = new long[max];
+            array = new long[length];
         }
 
         public void Display()
         {
-            for (int i = 0; i < size; i++)
+            for (int i = 0; i < count; i++)
             {
                 Console.Write(array[i] + " ");
             }
@@ -27,16 +27,16 @@ namespace SelectionSort
 
         public void Insert(long value)
         {
-            array[size++] = value;
+            array[count++] = value;
         }
 
         public void Sort()
         {
             int min;
-            for (int i = 0; i < size - 1; i++)
+            for (int i = 0; i < count - 1; i++)
             {
                 min = i;
-                for (int j = i + 1; j < size; j++)
+                for (int j = i + 1; j < count; j++)
                 {
                     if (array[min] > array[j])
                     {
