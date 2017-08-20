@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSortApp", "SelectionSortApp\SelectionSortApp.csproj", "{E5516EB3-EAE7-47F0-8C89-3000A77A0BA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSortApp", "BubbleSortApp\BubbleSortApp.csproj", "{13A3889F-7508-483A-9707-DD7B0FDF8F4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertSortApp", "InsertSortApp\InsertSortApp.csproj", "{824280E4-5A72-4174-9F5C-CA3469AAC48F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5516EB3-EAE7-47F0-8C89-3000A77A0BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5516EB3-EAE7-47F0-8C89-3000A77A0BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5516EB3-EAE7-47F0-8C89-3000A77A0BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5516EB3-EAE7-47F0-8C89-3000A77A0BA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A3889F-7508-483A-9707-DD7B0FDF8F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A3889F-7508-483A-9707-DD7B0FDF8F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A3889F-7508-483A-9707-DD7B0FDF8F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A3889F-7508-483A-9707-DD7B0FDF8F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{824280E4-5A72-4174-9F5C-CA3469AAC48F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{824280E4-5A72-4174-9F5C-CA3469AAC48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{824280E4-5A72-4174-9F5C-CA3469AAC48F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{824280E4-5A72-4174-9F5C-CA3469AAC48F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
