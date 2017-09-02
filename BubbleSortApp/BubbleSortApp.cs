@@ -29,7 +29,7 @@ namespace BubbleSortApp
 
             bubbleArray.Sort();
 
-            bubbleArray.Display();
+            //bubbleArray.Display();
 
             Console.ReadLine();
         }

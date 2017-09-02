@@ -1,0 +1,6 @@
+C:\work\c#\Algorithm\BracketCheckerApp\bin\Debug\BracketCheckerApp.exe.config
+C:\work\c#\Algorithm\BracketCheckerApp\bin\Debug\BracketCheckerApp.exe
+C:\work\c#\Algorithm\BracketCheckerApp\bin\Debug\BracketCheckerApp.pdb
+C:\work\c#\Algorithm\BracketCheckerApp\obj\Debug\BracketCheckerApp.csprojResolveAssemblyReference.cache
+C:\work\c#\Algorithm\BracketCheckerApp\obj\Debug\BracketCheckerApp.exe
+C:\work\c#\Algorithm\BracketCheckerApp\obj\Debug\BracketCheckerApp.pdb

@@ -1,0 +1,6 @@
+C:\work\c#\Algorithm\Temp\bin\Debug\Temp.exe.config
+C:\work\c#\Algorithm\Temp\bin\Debug\Temp.exe
+C:\work\c#\Algorithm\Temp\bin\Debug\Temp.pdb
+C:\work\c#\Algorithm\Temp\obj\Debug\Temp.exe
+C:\work\c#\Algorithm\Temp\obj\Debug\Temp.pdb
+C:\work\c#\Algorithm\Temp\obj\Debug\Temp.csprojResolveAssemblyReference.cache

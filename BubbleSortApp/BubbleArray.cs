@@ -32,15 +32,16 @@ namespace BubbleSortApp
 
         public void Sort()
         {
-            for (int i = 0; i < count - 1; i++)
+            for (int outer = count - 1; outer > 0; outer--)
             {
-                for (int j = i + 1; j < count; j++)
+                for (int inner = 0; inner < outer; inner++)
                 {
-                    if (array[i] > array[j])
+                    if (array[inner] > array[inner + 1])
                     {
-                        Swap(i, j);
+                        Swap(inner, inner + 1);
                     }
                 }
+                Display();
             }
         }
 

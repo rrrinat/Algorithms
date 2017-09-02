@@ -44,6 +44,7 @@ namespace SelectionSort
                     }
                 }
                 Swap(i, min);
+                Display();
             }
         }
 

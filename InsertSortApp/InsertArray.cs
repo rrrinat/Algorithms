@@ -44,6 +44,7 @@ namespace InsertSortApp
                     inner--;
                 }
                 array[inner] = buf;
+                Display();
             }
         }
     }

@@ -29,7 +29,7 @@ namespace SelectionSort
 
             selectionArray.Sort();
 
-            selectionArray.Display();
+            //selectionArray.Display();
 
             Console.ReadLine();
 
