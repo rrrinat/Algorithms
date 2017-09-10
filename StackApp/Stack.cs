@@ -9,7 +9,6 @@ namespace StackApp
     class Stack
     {
         private long[] array;
-        private int count;
         private int top = -1;
 
         public Stack(int length)
