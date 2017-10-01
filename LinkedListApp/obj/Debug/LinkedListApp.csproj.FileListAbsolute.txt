@@ -1,0 +1,6 @@
+C:\work\c#\Algorithm\LinkedListApp\bin\Debug\LinkedListApp.exe.config
+C:\work\c#\Algorithm\LinkedListApp\bin\Debug\LinkedListApp.exe
+C:\work\c#\Algorithm\LinkedListApp\bin\Debug\LinkedListApp.pdb
+C:\work\c#\Algorithm\LinkedListApp\obj\Debug\LinkedListApp.csprojResolveAssemblyReference.cache
+C:\work\c#\Algorithm\LinkedListApp\obj\Debug\LinkedListApp.exe
+C:\work\c#\Algorithm\LinkedListApp\obj\Debug\LinkedListApp.pdb

@@ -1,0 +1,6 @@
+C:\work\c#\Algorithm\Eratosthenes\bin\Debug\Eratosthenes.exe.config
+C:\work\c#\Algorithm\Eratosthenes\bin\Debug\Eratosthenes.exe
+C:\work\c#\Algorithm\Eratosthenes\bin\Debug\Eratosthenes.pdb
+C:\work\c#\Algorithm\Eratosthenes\obj\Debug\Eratosthenes.csprojResolveAssemblyReference.cache
+C:\work\c#\Algorithm\Eratosthenes\obj\Debug\Eratosthenes.exe
+C:\work\c#\Algorithm\Eratosthenes\obj\Debug\Eratosthenes.pdb
