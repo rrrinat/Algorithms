@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eratosthenes", "Eratosthene
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashLinearProbing", "HashLinearProbing\HashLinearProbing.csproj", "{11C387F0-BF33-4C8A-B4E8-36E03DE91F4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderedArrayApp", "OrderedArrayApp\OrderedArrayApp.csproj", "{C47AD90A-5E70-45FA-AF64-9DF5EC4DC543}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{11C387F0-BF33-4C8A-B4E8-36E03DE91F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11C387F0-BF33-4C8A-B4E8-36E03DE91F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11C387F0-BF33-4C8A-B4E8-36E03DE91F4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C47AD90A-5E70-45FA-AF64-9DF5EC4DC543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C47AD90A-5E70-45FA-AF64-9DF5EC4DC543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C47AD90A-5E70-45FA-AF64-9DF5EC4DC543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C47AD90A-5E70-45FA-AF64-9DF5EC4DC543}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

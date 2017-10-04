@@ -1,0 +1,6 @@
+C:\work\c#\Algorithm\OrderedArrayApp\bin\Debug\OrderedArrayApp.exe.config
+C:\work\c#\Algorithm\OrderedArrayApp\bin\Debug\OrderedArrayApp.exe
+C:\work\c#\Algorithm\OrderedArrayApp\bin\Debug\OrderedArrayApp.pdb
+C:\work\c#\Algorithm\OrderedArrayApp\obj\Debug\OrderedArrayApp.csprojResolveAssemblyReference.cache
+C:\work\c#\Algorithm\OrderedArrayApp\obj\Debug\OrderedArrayApp.exe
+C:\work\c#\Algorithm\OrderedArrayApp\obj\Debug\OrderedArrayApp.pdb

@@ -10,11 +10,7 @@ namespace Anagram
     {
         static void Main(string[] args)
         {
-            //string parket = "паркет";  
             string parket = "паркет";
-            string buffer = parket.Substring(0, 2) + parket.Substring(2 + 1, 3);
-            Console.WriteLine(buffer);
-
             //string raketa = "ракета";
             string raketa = "ракетп";
             if (IsAnagram(parket, raketa))
@@ -35,9 +31,6 @@ namespace Anagram
             {
                 return false;
             }
-
-            //
-            int count = word.Length;
 
             char[] chars = word.ToCharArray();
             foreach (var c in chars)
