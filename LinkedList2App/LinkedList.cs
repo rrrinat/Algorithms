@@ -58,8 +58,10 @@ namespace LinkedList2App
             }
             else
             {
-
+                previous.next = current.next;
             }
+
+            return current;
         }
 
         public Node RemoveFirst()

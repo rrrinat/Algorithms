@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSortApp", "SelectionSortApp\SelectionSortApp.csproj", "{E5516EB3-EAE7-47F0-8C89-3000A77A0BA3}"
 EndProject
@@ -28,6 +28,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashLinearProbing", "HashLinearProbing\HashLinearProbing.csproj", "{11C387F0-BF33-4C8A-B4E8-36E03DE91F4D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderedArrayApp", "OrderedArrayApp\OrderedArrayApp.csproj", "{C47AD90A-5E70-45FA-AF64-9DF5EC4DC543}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeApp", "TreeApp\TreeApp.csproj", "{1343988E-1594-45C4-8D56-F66A62F8DCBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,8 +89,15 @@ Global
 		{C47AD90A-5E70-45FA-AF64-9DF5EC4DC543}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C47AD90A-5E70-45FA-AF64-9DF5EC4DC543}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C47AD90A-5E70-45FA-AF64-9DF5EC4DC543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1343988E-1594-45C4-8D56-F66A62F8DCBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1343988E-1594-45C4-8D56-F66A62F8DCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1343988E-1594-45C4-8D56-F66A62F8DCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1343988E-1594-45C4-8D56-F66A62F8DCBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50377D14-B075-4590-A613-9FA770A47551}
 	EndGlobalSection
 EndGlobal
