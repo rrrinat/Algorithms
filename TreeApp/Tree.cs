@@ -8,6 +8,12 @@ namespace TreeApp
 {
     class Tree
     {
+        private enum Child
+        {
+            Left,
+            Right
+        }
+
         private Node root;
 
         public Tree()
@@ -78,5 +84,103 @@ namespace TreeApp
             }
         }
 
+        public bool Delete(int key)
+        {
+            Node current = root;
+            Node parent = root;
+
+            var child = Child.Left;
+            
+            //looking for node
+            while(current.data != key)
+            {
+                parent = current;
+                if (key < current.data)
+                {
+                    child = Child.Left;
+                    current = current.leftChild;
+                }
+                else
+                {
+                    child = Child.Right;
+                    current = current.rightChild;
+                }
+
+                if (current == null)
+                {
+                    return false;
+                }
+            }
+
+            //if we found node!
+            //если у искомого узла нет потомков то просто удаляем его
+            if (current.leftChild == null && current.rightChild == null)
+            {
+                if (current == root)
+                {
+                    root = null;                
+                }
+                else if (child.Equals(Child.Left))
+                {
+                    parent.leftChild = null;
+                }
+                else
+                {
+                    parent.rightChild = null;
+                }
+            }
+
+            //если нет правого потомка, то узел заменяется левым поддеревом
+            else if (current.rightChild == null)
+            {
+                if (current == root)
+                {
+                    root = current.leftChild;
+                }
+                else if (child.Equals(Child.Left))
+                {
+                    parent.leftChild = current.leftChild;
+                }
+                else
+                {
+                    parent.rightChild = current.leftChild;
+                }
+            }
+
+            //если нет левого потомка, то узел заменяется правым поддеревом
+            else if (current.leftChild == null)
+            {
+                if (current == root)
+                {
+                    root = current.rightChild;
+                }
+                else if (child.Equals(Child.Left))
+                {
+                    parent.leftChild = current.rightChild;
+                }
+                else
+                {
+                    parent.rightChild = current.rightChild;
+                }
+            }
+
+            //если имеется 2 потомка, то узел заменяется преемником
+            else
+            {
+
+            }
+        }
+
+        private Node GetSuccessor(Node deleteNode)
+        {
+            Node successorParent = deleteNode;
+            Node successor = deleteNode;
+
+
+            Node current = deleteNode.rightChild;
+
+
+        }
+        //
     }
 }
