@@ -167,8 +167,25 @@ namespace TreeApp
             //если имеется 2 потомка, то узел заменяется преемником
             else
             {
+                //поиск преемника для current
+                Node successor = GetSuccessor(current);
 
+                //родитель current связывается с посредником
+                if (current == root)
+                {
+                    root = successor;
+                }
+                else if (child.Equals(Child.Left))
+                {
+                    parent.leftChild = successor;
+                }
+                else
+                {
+                    parent.rightChild = successor;
+                }               
             }
+
+            return true;
         }
 
         private Node GetSuccessor(Node deleteNode)
@@ -178,8 +195,20 @@ namespace TreeApp
 
 
             Node current = deleteNode.rightChild;
+            while(current != null)
+            {
+                successorParent = successor;
+                successor = current;
+                current = current.leftChild;
+            }
 
+            if (successor != deleteNode.rightChild)
+            {
+                successorParent.leftChild = successor.rightChild;
+                successor.rightChild = deleteNode.rightChild;
+            }
 
+            return successor;
         }
         //
     }
